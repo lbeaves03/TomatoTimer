@@ -7,7 +7,7 @@ class PomodoroTimer:
         pygame.mixer.music.load("alarm.mp3")
 
         self.root = tk.Tk()
-        self.root.title("Pomodoro Timer")
+        self.root.title("Tomato Timer")
 
         self.is_running = False
         self.is_work_period = True
@@ -21,7 +21,7 @@ class PomodoroTimer:
         self.root.mainloop()
 
     def create_input_widgets(self):
-        self.label = tk.Label(self.root, text="Pomodoro Timer", font=("Helvetica", 24))
+        self.label = tk.Label(self.root, text="Tomato Timer", font=("Helvetica", 24))
         self.label.pack(pady=20, padx=20)
 
         self.work_label = tk.Label(self.root, text="Work Time (minutes):", font=("Helvetica", 14))
